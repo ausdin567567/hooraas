@@ -1,0 +1,38 @@
+
+.contact-page {
+    padding: 4rem 2rem;
+  }
+  
+
+  .sponsorship-flyers {
+    display: flex;
+    flex-wrap: nowrap;               
+    justify-content: space-between;  
+    gap: 1rem;
+    margin: 2rem 0;
+  }
+  
+
+  .flyer-image {
+    flex: 0 0 32%;                   
+    max-width: 32%;
+    height: auto;
+    display: block;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  @media (max-width: 800px) {
+    .sponsorship-flyers {
+      flex-direction: column;        
+      flex-wrap: nowrap;
+      gap: 1.5rem;
+    }
+    .flyer-image {
+      flex: none;
+      width: 100%;                   
+      max-width: 100%;
+    }
+  }
+  

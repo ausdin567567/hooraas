@@ -1,0 +1,56 @@
+.competition-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;          
+    padding: 1rem 3rem; 
+  }
+  
+  .competition-slider {
+    margin-bottom: 0;
+  }
+
+  .competition-slider .slick-list {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .competition-slider .slide-item {
+    padding: 0;
+  }
+  
+  .competition-title {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .slide-item {
+    height: 500px;
+    overflow: hidden;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f2ed;
+  }
+  
+  .slide-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .slide-item:hover img {
+    transform: scale(1.02);
+  }
+  
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+  font-size: 1.5rem;    
+}

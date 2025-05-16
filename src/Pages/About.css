@@ -1,0 +1,66 @@
+.about-page {
+    padding: 4rem 2rem;
+  }
+  
+  .extra-about {
+    margin-top: 2rem;
+  }
+  
+  .extra-about h3 {
+    margin-top: 1.5rem;
+  }
+  
+  .extra-about ul {
+    margin: 1rem 0;
+    padding-left: 1.25rem;
+  }
+  
+  .extra-about p {
+    line-height: 1.6;
+  }
+  
+  .years-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1rem 2rem;
+  }
+
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+
+  .gallery-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+  }
+
+  .gallery-item img:hover {
+    transform: scale(1.03);
+  }
+  .gallery-item .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0.5rem;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 0.9rem;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .gallery-item:hover .overlay {
+    opacity: 1;
+  }
+  
+  @media (max-width: 700px) {
+    .years-gallery {
+      grid-template-columns: 1fr;
+    }
+  }
