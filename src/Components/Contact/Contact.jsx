@@ -38,7 +38,7 @@ const Contact = () => {
             <p>Feel free to reach out with any questions about the tryout process or if you’d like to sponsor our team. Your feedback, ideas, and suggestions are invaluable as we strive to become the very best version of ourselves as a team.
 </p>
             <ul>
-                <li><img src={mail_icon} alt="" />rahmanausdin@gmail.com</li>
+                <li><img src={mail_icon} alt="" />hooraas2k@gmail.com</li>
             </ul>
         </div>
         <div className="contact-col">
