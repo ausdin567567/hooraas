@@ -11,7 +11,7 @@ import flyer3 from '../assets/flyer3.png';
 const ContactPage = () => {
   return (
     <div className="container contact-page">
-      <Title title="Contact Us" subTitle="Sponsership" />
+      <Title title="Contact Us" subTitle="Sponsorship" />
 
 
       <div className="sponsorship-flyers">
