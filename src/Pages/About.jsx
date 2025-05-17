@@ -9,10 +9,10 @@ import hooraas3 from '../assets/hooraas3.jpg';
 import hooraas4 from '../assets/hooraas4.jpg';
 
 const seasonImages = [
-  { src: hooraas1, alt: 'HooRaas 2019-20 Season: Farming',},
-  { src: hooraas2, alt: 'HooRaas 2023-24 Season: Movie Theater' },
+  { src: hooraas4, alt: 'HooRaas 2018-19 Season: Game of LIFE',},
+  { src: hooraas1, alt: 'HooRaas 2019-20 Season: Farming' },
   { src: hooraas3, alt: 'HooRaas 2021-22 Season: Minions' },
-  { src: hooraas4, alt: 'HooRaas 2018-19 Season: Game of LIFE' }
+  { src: hooraas2, alt: 'HooRaas 2023-24 Season: Movie Theater' }
 ];
 
 const AboutPage = () => {
