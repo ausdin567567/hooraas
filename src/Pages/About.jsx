@@ -32,7 +32,7 @@ const AboutPage = () => {
         Founded in 2008, HooRaas has grown to be a nationally competitive garba-raas dance team each year. Every year, we dance ot fresh sets and craft unforgettable themes, including our Dora and Minion themes recently. We've been privileged to compete at Raas All Stars, the national collegiate raas-garba championship, a total of 6 times. With 69 bid points that we have earned by placing at big competitions, we are the 4th ranked team nationally as of the 2025 season. We can't wait to continue dancing and bring on new sets.
         </p>
 
-        <h3>Slogan</h3>
+        <h3>Chant</h3>
         <p>
         Hoo let the Raas out? Hoo Hoo HooRaas! (X2) Hoo what? HooRaas! Hoo what? HooRaas! Hoooo what? HOOOORAAS!
         </p>
