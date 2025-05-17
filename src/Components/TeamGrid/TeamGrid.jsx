@@ -47,12 +47,14 @@ import samaiOfficial from '../../assets/samai-official.jpg'
 import samaiDance from '../../assets/samai-dance.jpg'
 import anjOfficial from '../../assets/anjali-official.jpg'
 import anjDance from '../../assets/anj-dance.jpg'
-import meeraOfficial from '../../assets/meera-official.jpg'
+import meeraOfficial from '../../assets/meera-1.jpg'
 import meeraDance from '../../assets/meera-dance.jpg'
 import misthiOfficial from '../../assets/misthi-official.jpg'
 import misthiDance from '../../assets/misthi-dance.jpg'
 import shikhaOfficial from '../../assets/shikha-official.jpg'
 import shikhaDance from '../../assets/shikha-dance.jpg'
+import sanjanaOfficial from '../../assets/sanjana-official.jpg'
+import sanjanaDance from '../../assets/sanjana-dance.jpg'
 import ausdinOfficial from '../../assets/ausdin-official.jpg'
 import ausdinDance from '../../assets/ausdin-dance.jpg'
 import yashOfficial from '../../assets/yash-official.jpg'
@@ -196,6 +198,11 @@ const members = [
     name: 'Shikha Raghuram',
     role: '',
     photos: [shikhaOfficial, shikhaDance],
+  },
+  {
+    name: 'Sanjana Rao',
+    role: '',
+    photos: [sanjanaOfficial, sanjanaDance],
   },
   {
     name: 'Ausdin Rahman',
